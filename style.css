@@ -1,0 +1,68 @@
+h1 {
+    text-align: center;
+    color: white;
+    
+}
+
+body {
+    background-image: url('aesthetic.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    font-family: "Gowun Batang", serif;
+}
+
+html {
+    min-height: 100%;
+    
+}
+
+#game {
+    border: 1px solid white;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+    max-width: 400px;
+    display: block;
+    margin: auto;
+    box-shadow: 0 0 20px rgba(20, 20, 180, 0.314);
+
+
+    
+}
+
+input {
+    width: 100%;
+    /* we need this property to make the padding not increase the width */
+    box-sizing: border-box;
+    border: none;
+    height: 40px;
+    border-radius: 10px;
+    text-align: center;
+    font-family: "Gowun Batang", serif;
+    margin-bottom: 10px;
+    box-shadow: 0 0 10px rgba(20, 20, 180, 0.197);
+
+}
+
+button {
+    background-color: white;
+    border: none;
+    height: 40px;
+    border-radius: 10px;
+    padding: 0 15px;
+    box-shadow: 0 0 10px rgba(20, 20, 180, 0.197);
+    font-family: "Gowun Batang", serif;
+    color: rgba(60, 57, 57, 0.986);
+     border: 1px dashed rgba(94, 94, 235, 0); 
+}
+
+button:hover {
+     background-color: rgba(205, 223, 255, 0.332);
+     border: 1px dashed rgb(94, 94, 235);
+     cursor: pointer;
+}
+
+p {
+    color: rgb(68, 65, 65);
+}
